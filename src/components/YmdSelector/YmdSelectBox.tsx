@@ -61,6 +61,7 @@ const getDayOptions = (hasEmpty: boolean, year: string, month: string) => {
 };
 
 export const YmdSelectBox = (props: YmdSelectBoxProps) => {
+  console.log('**Re-render: YmdSelectBox');
   const { yearOptions, monthOptions } = useMemo(() => {
     return getYMOptions(props.hasEmpty, props.minYear, props.maxYear);
   }, [props.hasEmpty, props.minYear, props.maxYear]);
