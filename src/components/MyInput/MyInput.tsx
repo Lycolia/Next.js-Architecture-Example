@@ -1,12 +1,11 @@
 import { ChangeEvent } from 'react';
 
-type ExampleInputProps = {
+type MyInputProps = {
   value: string;
   onChange: (value: string) => void;
 };
 
-export const ExampleInput = (props: ExampleInputProps) => {
-  console.log('**Re-render: ExampleInput');
+export const MyInput = (props: MyInputProps) => {
   const onChange = (ev: ChangeEvent<HTMLInputElement>) => {
     props.onChange(ev.currentTarget.value);
   };
