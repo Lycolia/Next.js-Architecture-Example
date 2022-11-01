@@ -1,4 +1,4 @@
-import { SelectOption } from '.';
+import { SelectOption } from 'src/components/SelectBox';
 
 const emptyOption: SelectOption = {
   text: '',

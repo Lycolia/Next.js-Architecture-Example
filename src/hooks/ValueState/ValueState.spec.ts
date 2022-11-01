@@ -1,5 +1,5 @@
-import { act, renderHook } from '@testing-library/react-hooks';
-import { useValue, useValueWithError } from './ValueState';
+import { act, renderHook } from '@testing-library/react';
+import { useValue, useValueWithError } from 'src/hooks/ValueState/ValueState';
 
 describe('useValue', () => {
   it('初期値が設定されている場合、その値が設定されていること', () => {

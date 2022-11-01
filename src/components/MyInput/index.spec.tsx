@@ -29,6 +29,6 @@ describe('onChange', () => {
     const el = setup(testItem);
 
     fireEvent.change(el, { target: { value: 'bar' } });
-    expect(spiedOnChange).toBeCalled();
+    expect(spiedOnChange).toBeCalledWith('bar');
   });
 });

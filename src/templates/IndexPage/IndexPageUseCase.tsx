@@ -1,8 +1,7 @@
-import { useIndexPageState } from './IndexPageState';
-import { IndexPageView } from './IndexPageView';
+import { useIndexPageState } from 'src/templates/IndexPage/IndexPageState';
+import { IndexPageView } from 'src/templates/IndexPage/IndexPageView';
 
 export const IndexPageUseCase = () => {
-  console.log('Re-render: IndexPageUseCase');
   const ps = useIndexPageState();
   const prop = {
     ymd: {

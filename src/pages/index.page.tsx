@@ -1,5 +1,5 @@
-import { Layout } from '../components/Layouts/Layout';
-import { IndexPageUseCase } from '../templates/IndexPage/IndexPageUseCase';
+import { Layout } from 'src/components/Layouts/Layout';
+import { IndexPageUseCase } from 'src/templates/IndexPage/IndexPageUseCase';
 
 const IndexPage = () => {
   return (

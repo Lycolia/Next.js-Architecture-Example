@@ -1,8 +1,7 @@
 import { useValue } from 'src/hooks/ValueState/ValueState';
-import { useYmdSelectBox } from '../../hooks/YmdSelectBoxState/YmdSelectBoxState';
+import { useYmdSelectBox } from 'src/hooks/YmdSelectBoxState/YmdSelectBoxState';
 
 export const useIndexPageState = () => {
-  console.log('Re-render: useIndexPageState');
   const ymd = useYmdSelectBox({
     year: '',
     month: '',
