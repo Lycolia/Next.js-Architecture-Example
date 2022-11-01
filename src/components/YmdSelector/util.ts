@@ -1,5 +1,5 @@
 import { YearMonthDay } from '../../types/YearMonthDay';
-import { SelectOption } from '../SelectBox/SelectBox';
+import { SelectOption } from '../SelectBox';
 
 const DefaultValue = '';
 

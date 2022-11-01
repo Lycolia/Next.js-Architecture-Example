@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/react';
-import { SelectBox } from './SelectBox';
+import { SelectBox } from '.';
 
 type TestSelectBoxProps = React.ComponentProps<typeof SelectBox>;
 
@@ -114,7 +114,7 @@ describe('onChange', () => {
     expect(spiedOnChange).toBeCalled();
   });
 
-  it('selectedvalueがコンポーネントで書き換えられていないこと', () => {
+  it('selectedValueがコンポーネントで書き換えられていないこと', () => {
     const el = setup(testItem);
 
     fireEvent.change(el, { target: { text: 'first', value: '1' } });

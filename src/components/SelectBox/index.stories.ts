@@ -1,5 +1,5 @@
 import type { ComponentStoryObj } from '@storybook/react';
-import { SelectBox } from './SelectBox';
+import { SelectBox } from '.';
 
 type Story = ComponentStoryObj<typeof SelectBox>;
 

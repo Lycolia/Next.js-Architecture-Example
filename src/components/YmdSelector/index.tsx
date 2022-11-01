@@ -1,8 +1,8 @@
-import styles from './YmdSelectBox.module.scss';
+import styles from './index.module.scss';
 import { useMemo } from 'react';
-import { SelectBoxUtil } from '../SelectBox/SelectBoxUtil';
-import { YmdSelectBoxUtil } from './YmdSelectBoxUtil';
-import { SelectBox } from '../SelectBox/SelectBox';
+import { SelectBoxUtil } from '../SelectBox/util';
+import { YmdSelectBoxUtil } from './util';
+import { SelectBox } from '../SelectBox';
 
 type YmdSelectBoxProps = {
   maxYear: string;

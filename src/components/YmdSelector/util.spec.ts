@@ -1,4 +1,4 @@
-import { YmdSelectBoxUtil } from './YmdSelectBoxUtil';
+import { YmdSelectBoxUtil } from './util';
 
 describe('createYearOptions', () => {
   it('maxYear から minYear に対し、降順でソートされること', () => {

@@ -1,4 +1,4 @@
-import { SelectOption } from '../../components/SelectBox/SelectBox';
+import { SelectOption } from '../../components/SelectBox';
 import { useValue } from '../ValueState/ValueState';
 
 export const useSelectOption = (initialText: string, initialValue: string) => {

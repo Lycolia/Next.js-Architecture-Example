@@ -1,6 +1,6 @@
 import React from 'react';
-import { ExampleInput } from 'src/components/ExampleInput/ExampleInput';
-import { YmdSelectBox } from 'src/components/YmdSelector/YmdSelectBox';
+import { ExampleInput } from 'src/components/MyInput/MyInput';
+import { YmdSelectBox } from 'src/components/YmdSelector';
 import { useIndexPageState } from 'src/templates/IndexPage/IndexPageState';
 
 type IndexPageViewProps = {

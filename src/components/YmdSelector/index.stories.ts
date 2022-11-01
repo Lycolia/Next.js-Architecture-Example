@@ -1,6 +1,6 @@
 import type { ComponentStoryObj } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { YmdSelectBox } from './YmdSelectBox';
+import { YmdSelectBox } from '.';
 
 type Story = ComponentStoryObj<typeof YmdSelectBox>;
 
