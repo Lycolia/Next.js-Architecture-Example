@@ -2,17 +2,17 @@ import { SelectOption } from 'src/components/SelectBox';
 import { useValue } from 'src/hooks/ValueState/ValueState';
 
 export const useSelectOption = (initialText: string, initialValue: string) => {
-  const text = useValue(initialText);
-  const value = useValue(initialValue);
+  const _text = useValue(initialText);
+  const _value = useValue(initialValue);
 
-  const setOption = (_value: SelectOption) => {
-    text.set(_value.text);
-    value.set(_value.value);
+  const setOption = (value: SelectOption) => {
+    _text.set(value.text);
+    _value.set(value.value);
   };
 
   return {
-    text: text.value,
-    value: value.value,
+    text: _text.value,
+    value: _value.value,
     setOption,
   };
 };
