@@ -102,8 +102,6 @@ describe('render', () => {
       expect(el).toHaveValue('');
     });
   });
-
-  it.todo('selectedValueを変更した場合、DOMの選択状態が変化すること');
 });
 
 describe('onChange', () => {
