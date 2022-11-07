@@ -1,5 +1,5 @@
 import { SelectOption } from 'src/components/SelectBox';
-import { useValue } from 'src/hooks/ValueState/ValueState';
+import { useValue } from 'src/hooks/ValueState';
 
 export const useSelectOption = (initialText: string, initialValue: string) => {
   const _text = useValue(initialText);

@@ -1,4 +1,4 @@
-import { useValue } from 'src/hooks/ValueState/ValueState';
+import { useValue } from 'src/hooks/ValueState';
 import { YearMonthDay } from 'src/types/YearMonthDay';
 
 export const useYmdSelectBox = (initialYmd: YearMonthDay) => {
